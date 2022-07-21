@@ -18,6 +18,7 @@ function ShoppingList({ items }) {
     <div className="ShoppingList">
      <Filter onCategoryChange={handleCategoryChange} />
      <ul className="Items">
+     {itemsToDisplay.map((item) => (
         ))}
       </ul>
     </div>
