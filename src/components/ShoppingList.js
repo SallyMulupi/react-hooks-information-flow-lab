@@ -17,6 +17,7 @@ function ShoppingList({ items }) {
   return (
     <div className="ShoppingList">
      <Filter onCategoryChange={handleCategoryChange} />
+     <ul className="Items">
         ))}
       </ul>
     </div>
