@@ -5,3 +5,4 @@ const Filter = ({ onCategoryChange }) => {
               <select name="filter" onChange={onCategoryChange}></select>
               <option value="All">Filter by category</option>
               <option value="Produce">Produce</option>
+              <option value="Dairy">Dairy</option>
